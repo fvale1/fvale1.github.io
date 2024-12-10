@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do banner de perfil */
+.profile-banner {
+    background-color: #adbbc7;
+}
+
+.profile-banner img {
+    border: 5px solid white; /* Destaque com borda branca na imagem */
+}
+
+.profile-banner p {
+    font-style: italic; /* Citação */
+    font-size: 1.2rem;
+    color: white;
+}
+
+#sobre, #serviços, #projetos, #clientes, #contacto {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.card img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+footer p {
+    margin: 0;
+}

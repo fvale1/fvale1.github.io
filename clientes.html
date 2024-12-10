@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Filipa vale</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html#">Portfólio Filipa Vale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#sobre">Sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+      <!-- Clientes -->
+      <section id="clientes" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Clientes</h2>
+            <div class="row mt-4">
+                <!-- Cliente 1 Sonae -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-sonae.png" class="card-img-top" alt="Software Development">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Development</h5>
+                            <p class="card-text">Desenvolvimento de websites e aplicações para as marcas X, Y e Z com JavaScript, PHP e integração de Base de Dados SQL.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cliente 2 Continente -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-continente.png" class="card-img-top" alt="Copywriter">
+                        <div class="card-body">
+                            <h5 class="card-title">Estratégia de Conteúdos</h5>
+                            <p class="card-text">Criação do storytelling da campanha de Natal 2024. O buzz digital colocou-a no top of mind dos consumidores no período, segundo os dados da Marktest.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cliente 3 Casal Garcia-->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-casal-garcia.png" class="card-img-top" alt="Digital advertising">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Advertising</h5>
+                            <p class="card-text">Google Ads, LinkedIn Ads, Meta Ads, Instagram Ads, TikTok Ads.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cliente 4 Mimosa -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-mimosa.png" class="card-img-top" alt="Digital advertising">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Advertising</h5>
+                            <p class="card-text">Google Ads, LinkedIn Ads, Meta Ads, Instagram Ads, TikTok Ads.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cliente 5 Volkswagen -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-volkswagen.png" class="card-img-top" alt="Digital advertising">
+                        <div class="card-body">
+                            <h5 class="card-title">Estratégia de Conteúdos</h5>
+                            <p class="card-text">Criação do storytelling da campanha de Natal 2024. O buzz digital colocou-a no top of mind dos consumidores no período, segundo os dados da Marktest.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cliente 6 Makro -->
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="images/logo-makro.png" class="card-img-top" alt="Digital advertising">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Development</h5>
+                            <p class="card-text">Desenvolvimento de websites e aplicações para as marcas X, Y e Z com JavaScript, PHP e integração de Base de Dados SQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário do contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container text-center">
+            <h2>Entre em Contacto</h2>
+            <p class="mt-4">Envie uma mensagem e conecte-se comigo!</p>
+            <!-- Dados do formulário -->
+            <form action="feedback.html" class="mt-3" method="GET">
+                <div class="row">
+                    <div class="col-12 col-sm-4 mb-3">
+                        <input type="text" class="form-control" placeholder="Insira o seu nome" required> 
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3">
+                        <input type="email" class="form-control" placeholder="Insira o seu email" required>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3">
+                        <input type="text" class="form-control" placeholder="Insira o seu telefone" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Escreva a sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>       
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <div class="mt-3">
+                <!-- Ícones das Redes Sociais -->
+                <a href="https://www.linkedin.com/in/anafilipavale/" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://github.com/fvale1" target="_blank" class="text-white mx-2">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+            <p class="mt-3">&copy; 2024 Filipa Vale. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
